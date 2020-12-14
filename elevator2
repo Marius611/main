@@ -34,7 +34,7 @@ class Dinglemouse(object):
                 if stop_at_floor and not stops[-1] == floor:
                     stops.append(floor)
 
-            # Going down
+             # Going down
             for floor in range(len(self.queues) -1, -1, -1):
                 stop_at_floor = False
 
